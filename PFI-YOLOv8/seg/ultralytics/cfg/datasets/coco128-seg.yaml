@@ -1,0 +1,26 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# COCO128-seg dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Documentation: https://docs.ultralytics.com/datasets/segment/coco/
+# Example usage: yolo train data=coco128.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── coco128-seg  ← downloads here (7 MB)
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: D:\Code\Python\PFI-YOLOv8\datasets\T1、T2 PFI AI 辅助\8 Junior2+AI-PFI-T2 # dataset root dir
+train: D:\Code\Python\PFI-YOLOv8\datasets\AI+2J\8 Junior2+AI-PFI\images # train images (relative to 'path') 128 images
+val: D:\Code\Python\PFI-YOLOv8\datasets\T1、T2 PFI AI 辅助\8 Junior2+AI-PFI-T2\images # val images (relative to 'path') 128 images
+test: # test images (optional)
+
+# Classes
+names:
+  0: P0
+  1: P1
+  2: P2
+  3: P3
+  4: P4
+
+
+## Download script/URL (optional)
+#download: https://ultralytics.com/assets/coco128-seg.zip
